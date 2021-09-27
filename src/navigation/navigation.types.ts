@@ -1,5 +1,6 @@
 import {Hello} from './routes';
 
 export type RootStackParamList = {
-  [Hello.ROOT]: {title: string};
+  [Hello.ROOT]: null;
+  [Hello.HELLO_CHILD]: {title: string};
 };

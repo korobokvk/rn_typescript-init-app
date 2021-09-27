@@ -1,13 +1,13 @@
 import {createSlice} from '@reduxjs/toolkit';
 import {dummyThunk} from './emptyReducersExample.thunk';
 
-export type WeatherState = {
+export type DummySate = {
   localData: string;
   data: string | null;
   pending: boolean;
 };
 
-const initialState: WeatherState = {
+const initialState: DummySate = {
   localData: '',
   data: null,
   pending: false,
